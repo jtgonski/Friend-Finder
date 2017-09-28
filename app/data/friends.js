@@ -49,7 +49,7 @@ var friendsArray = [
 	},
 	{
 		"name": "Shrek", 
-		"photo": "http://s3.firstpost.in/wp-content/uploads/2014/02/shrek_380.gif"
+		"photo": "http://s3.firstpost.in/wp-content/uploads/2014/02/shrek_380.gif",
 		"scores": [
 			"1", 
 			"5", 
