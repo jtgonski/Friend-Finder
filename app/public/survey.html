@@ -33,11 +33,11 @@
 						<label for="question1">When I travel, I like to have a detailed itinerary</label>
 						<select class="form-control" id="question1">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -45,11 +45,11 @@
 						<label for="question2">When I travel, I pack more than enough. Better safe than sorry!</label>
 						<select class="form-control" id="question2">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -57,11 +57,11 @@
 						<label for="question3">When I travel, I like to try local foods, including street food. Life's no fun without any risks!</label>
 						<select class="form-control" id="question3">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -69,11 +69,11 @@
 						<label for="question4">When I travel, I like to learn some of the local language before I go. </label>
 						<select class="form-control" id="question4">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -81,11 +81,11 @@
 						<label for="question5">When I travel, I prefer to take trains or busses to planes.</label>
 						<select class="form-control" id="question5">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -93,11 +93,11 @@
 						<label for="question6">When I travel, I always buy travel insurance</label>
 						<select class="form-control" id="question6">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -105,11 +105,11 @@
 						<label for="question7">When I travel, I get easily annoyed when my transportation schedule gets delayed</label>
 						<select class="form-control" id="question7">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -117,11 +117,11 @@
 						<label for="question8">When I travel, I always bring necessary medication in case I get traveller's diarrea or malaria</label>
 						<select class="form-control" id="question8">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -129,11 +129,11 @@
 						<label for="question9">When I travel, I like to bring a book</label>
 						<select class="form-control" id="question9">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -141,26 +141,29 @@
 						<label for="question10">I prefer the mountains to the beach</label>
 						<select class="form-control" id="question10">
 							<option>Please select an answer</option>
-							<option>1</option>
+							<option>1 (strongly disagree)</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
-							<option>5</option>
+							<option>5 (strongly agree)</option>
 						</select>
 					</div>
 					<button type="button" class="btn btn-primary" id="matchMe" data-toggle="modal" data-target="#matchModal">Match Me!</button>
+					<!-- <button type="button" class="btn btn-primary" id="matchMe">Match Me!</button> -->
+				
 					
-					<div class="modal fade" id="matchModall" tabindex="-1" role="dialog" aria-labelledby="matchModalLabel" aria-hidden="true">
+					<div class="modal fade" id="matchModal" tabindex="-1" role="dialog" aria-labelledby="matchModalLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 class="modal-title" id="friend-title">And your friend is...</h5>
+									<h5 class="modal-title" id="friend-title">And your new best friend is...</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body" id="friend-match">
-									
+								<div class="modal-body">
+									<h2 id="friend-match"></h2>
+									<img id="friend-match-img" src="" alt="" width="400px">
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -189,24 +192,35 @@
 	<script type="text/javascript">
 		
 		$("#matchMe").on("click", function() {
-			var newFriend = {
+			event.preventDefault();
+
+			var userData = {
 				name: $("#name").val().trim(),
-				photo: $("photo").val().trim(), 
-				score: [
-					parseInt($("question1").val().trim()),
-					parseInt($("question2").val().trim()),
-					parseInt($("question3").val().trim()),
-					parseInt($("question4").val().trim()),
-					parseInt($("question5").val().trim()),
-					parseInt($("question6").val().trim()),
-					parseInt($("question7").val().trim()),
-					parseInt($("question8").val().trim()),
-					parseInt($("question9").val().trim()),
-					parseInt($("question10").val().trim())
+				photo: $("#photo-link").val().trim(), 
+				scores: [
+					parseInt($("#question1").val().trim()),
+					parseInt($("#question2").val().trim()),
+					parseInt($("#question3").val().trim()),
+					parseInt($("#question4").val().trim()),
+					parseInt($("#question5").val().trim()),
+					parseInt($("#question6").val().trim()),
+					parseInt($("#question7").val().trim()),
+					parseInt($("#question8").val().trim()),
+					parseInt($("#question9").val().trim()),
+					parseInt($("#question10").val().trim())
 				]
 			};
-
-			console.log(newFirend); 
+			
+			console.log(userData);
+		 
+			$.post("/api/friends", userData, function(data) {
+				$("#friend-match").text(data.name); 
+				$("#friend-match-img").attr("src", data.photo); 
+				console.log(data.photo); 
+				 // Show the modal with the best match
+				 $("#matchModal").modal("toggle");
+			});
+			
 		})
 
 		function displayFriend() {
@@ -222,18 +236,15 @@
 					$("#friend-match").text(friendsData[0].name + $("<br>") +friendsData[0].photo)
 				});
 		}
-		displayFriend();
-
-		function postFriendData() {
-
-		}
-
-		function findMatch() {
-
-		}
 
 
+		// function postFriendData(newFriend) {
+			
+		// 	$.post("api/firends", newFriend, function(data) {
+		// 		$("#friend-match").text(data.name); 
+		// 		$("#friend-match-img").attr(data.photo); 
+		// 	})
+		// }
 
-	
 	</script>
 </html>
