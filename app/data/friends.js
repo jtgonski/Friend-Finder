@@ -1,7 +1,7 @@
 var friends = [
 	{
 		"name": "Phillipe Dixon", 
-		"photo": "http://3.bp.blogspot.com/-bJ1cD3ReHBo/T6v5BWiBLaI/AAAAAAAAFkM/4HRdqLLn2wk/s1600/xprs-hulk.jpg", 
+		"photo": "https://3.bp.blogspot.com/-bJ1cD3ReHBo/T6v5BWiBLaI/AAAAAAAAFkM/4HRdqLLn2wk/s1600/xprs-hulk.jpg", 
 		"scores": [
 			"5", 
 			"1",
@@ -17,7 +17,7 @@ var friends = [
 	}, 
 	{
 		"name" : "Julian Bridges", 
-		"photo": "http://images5.fanpop.com/image/photos/30100000/Donkey-shrek-30165006-445-445.jpg", 
+		"photo": "https://images5.fanpop.com/image/photos/30100000/Donkey-shrek-30165006-445-445.jpg", 
 		"scores": [
 			"5", 
 			"5", 
@@ -33,7 +33,7 @@ var friends = [
 	}, 
 	{
 		"name": "Julianne Gonski", 
-		"photo": "http://media-cache-ak0.pinimg.com/236x/7d/4f/c2/7d4fc24ad5e4c717db2ce951423fa39b.jpg", 
+		"photo": "https://media-cache-ak0.pinimg.com/236x/7d/4f/c2/7d4fc24ad5e4c717db2ce951423fa39b.jpg", 
 		"scores": [
 			"2", 
 			"3", 
