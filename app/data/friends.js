@@ -1,6 +1,6 @@
 var friends = [
 	{
-		"name": "Phillipe Dixon", 
+		"name": "Philippe Dixon", 
 		"photo": "https://3.bp.blogspot.com/-bJ1cD3ReHBo/T6v5BWiBLaI/AAAAAAAAFkM/4HRdqLLn2wk/s1600/xprs-hulk.jpg", 
 		"scores": [
 			"5", 
@@ -17,7 +17,7 @@ var friends = [
 	}, 
 	{
 		"name" : "Julian Bridges", 
-		"photo": "https://images5.fanpop.com/image/photos/30100000/Donkey-shrek-30165006-445-445.jpg", 
+		"photo": "https://i.pinimg.com/736x/6b/68/f8/6b68f84c63c4bcd8d4e600ed593650cb.jpg", 
 		"scores": [
 			"5", 
 			"5", 
